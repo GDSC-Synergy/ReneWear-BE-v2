@@ -1,0 +1,12 @@
+{
+  "name": "renewear-be-v2",
+  "version": "0.0.1",
+  "description": "![ReneWear logo](https://github.com/GDSC-Synergy/ReneWear-BE-v2/assets/62737325/d60d3043-5ff1-4a43-8105-7cc21963d512)",
+  "scripts": {
+    "lint": "cd functions && npm run lint",
+    "build": "cd functions && npm run build",
+    "shell": "npm run build && firebase emulators:start",
+    "start": "npm run shell",
+    "deploy": "cd functions && npm run deploy"
+  }
+}
